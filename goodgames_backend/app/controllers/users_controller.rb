@@ -17,7 +17,7 @@ class UsersController < ApplicationController
 
   def create
     # secret = YAML.load_file('./secret.yaml')
-    byebug
+    # byebug
     @user = User.create!(user_params)
     if @user.valid?
     #   @user.save
