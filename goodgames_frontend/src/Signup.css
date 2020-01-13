@@ -1,0 +1,164 @@
+#signup-page{
+    background: url(./images/melee-minimalist-browniehooves-deviantart.png);
+    background-size:1450px 800px;
+    color:white;
+    font-family: 'Manjari', sans-serif;
+}
+
+/* Font to use: how to put link in header?? */
+/* <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet"> */
+/* font-family: 'Manjari', sans-serif; */
+
+#signup-logo{
+    margin-top:1%;
+    width:40em;
+    height:9em;
+    margin-right:54%;
+}
+
+.intro{
+    margin-top:1%;
+    /* margin-bottom: 2%;  */
+    margin-left:5%;
+    width:30%;
+    text-align:left;
+    font-size:2em;
+}
+
+#already-a-member{
+    margin-top:-1%;
+    margin-bottom: 2%; 
+    margin-left:5%;
+    width:30%;
+    text-align:left;
+    font-size:1em;
+}
+
+#to-login:visited{
+    color: rgb(202, 148, 249);
+}
+
+#to-login{
+    color: lightblue;
+}
+
+
+.left-signup-input{
+    /* margin-top:5%; */
+    margin-right:78%;
+    width:15em;
+    margin-bottom:3em;
+}
+
+.username-span{
+    /* margin-top:10%; */
+    margin-right:82%;
+    font-size:1.3em;
+}
+
+.email-span{
+    /* margin-top:10%; */
+    margin-right:91%;
+    font-size:1.3em;
+}
+
+#genre-selection{
+    margin-top:3%;
+    margin-left:0%;
+    line-height:0.85em;
+    width:80%;
+    text-align:left;
+    font-size:1.5em;
+    
+}
+
+.right-signup-input{
+    margin-right:25%;
+    width:15em;
+    margin-bottom:3em;
+}
+
+#checkbox-container{
+    margin-top:2%;
+    margin-left:-1.8%;
+}
+
+.password-span{
+    margin-right:29.5%;
+    font-size:1.3em;
+}
+
+.right-signup-span{
+    margin-right:32.5%;
+    font-size:1.3em;
+}
+
+.checkbox-left-container{
+    margin-left:1%;
+    float:left;
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+.checkbox-left-container label{ 
+    text-align:left; 
+}
+
+.checkbox-middle-container{
+    margin-left:2%;
+    float:left;
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+.checkbox-middle-container label{ 
+    text-align:left; 
+}
+
+.checkbox-right-container{
+    margin-left:2%;
+    float:left;
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+.checkbox-right-container label{ 
+    text-align:left; 
+}
+
+#signup{
+    font-size:1.5em;
+    font-family: 'Manjari', sans-serif;
+    color:white;
+    background:none;
+    width:30em;
+    height:30em;
+    line-height: 100%;
+    padding-top:4px;
+    padding-bottom:-70px;
+    margin-top:2em;
+    margin-left:2em;
+    /* margin-bottom: 3em; */
+    /* border:3px solid white; */
+    z-index:2
+}
+
+
+#signup-button{
+    font-size:1.4em;
+    border-radius:10px;
+    width:5em;
+    padding-top:4px;
+    padding-bottom:-70px;
+    font-family: 'Manjari', sans-serif;
+    background:none;
+    border:2px solid white;
+    /* margin-bottom: 3em; */
+    color:white;
+    margin-top:1em;
+}
+
+#signup-button:hover{
+    cursor:pointer;
+}
+

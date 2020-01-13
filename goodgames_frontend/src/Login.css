@@ -1,0 +1,46 @@
+#login-page{
+    background: url(./images/snes-controller.jpg);
+    height:50em;
+    font-family: 'Manjari', sans-serif;
+}
+
+.intro{
+    margin-top:1%;
+    margin-bottom: 2%; 
+    margin-left:5%;
+    width:30%;
+    text-align:left;
+    font-size:2em;
+}
+
+form{
+    margin-left:-75%;
+    font-size:1.5em;
+}
+
+
+#username-label{
+    padding-right:10px;
+}
+
+#password-label{
+    padding-right:14px;
+}
+
+#login-page-button{
+    font-size:1.5em;
+    font-family: 'Manjari', sans-serif;
+    background:transparent;
+    border:2px solid white;
+    border-radius:10px;
+    width:5em;
+    line-height: 100%;
+    padding-top:8px;
+    margin-top:1%;
+    /* margin-left:-101%; */
+    margin-bottom: 2%;
+}
+
+#login-page-button:hover{
+    cursor:pointer;
+}

@@ -1,0 +1,35 @@
+#search-game-form input{
+    font-size:1em;
+    /* margin-right:9.1em; */
+}
+
+#search-input{
+    float:left;
+    margin-top:-0.1em;
+    padding-top:5px;
+    /* line-height:1.1em; */
+    font-family: 'Manjari', sans-serif;
+}
+
+#search-submit{
+        font-family: 'Manjari', sans-serif;
+        font-size: 1.4em;
+        padding-top:0.2em;
+        margin-top:-0.1em;
+        margin-left: -15em;
+        margin-right:2.5em;
+        border: 2px solid black;
+        border-radius:10px;
+        background: none;
+    }
+
+    @media (max-width: 500px) {
+        #search-submit {
+            font-size: 0.6em;
+        }
+    }
+
+    #search-submit:hover{
+        cursor: pointer;
+    }
+

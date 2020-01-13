@@ -1,0 +1,40 @@
+#news{
+    margin-right:25em;
+}
+
+#blurb{
+
+}
+
+
+.blurb img{
+    float:left;
+    height: 250px;
+    width:40%;
+    /* margin-left:1em; */
+}
+
+.blurb p{
+    
+    float:right;
+    margin-top:-11em;
+    width:55%;
+    text-align:left;
+    margin-left:-9em;
+}
+
+.blurb h2{
+    
+    float:right;
+    margin-top:-10em;
+    width:55%;
+    text-align:left;
+    /* margin-left:-100em; */
+}
+.news-container{
+    text-align:center;
+    /* border: 1px solid black; */
+    width:44em;
+    float:right;
+    margin-right:21em;
+}

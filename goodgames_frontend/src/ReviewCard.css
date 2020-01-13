@@ -1,0 +1,116 @@
+.review-card {
+    border: 3px solid black;
+    background-image: linear-gradient(#fffeea,#fffdd0);
+    border-radius: 10px;
+    padding-bottom:20px;
+    /* padding: 20px 40px 40px; */
+    margin-bottom:0.5em;
+    margin-left:24em;
+    max-width: 45em;
+    min-height:22em;
+    overflow:hidden;
+    font-family: 'Manjari', sans-serif;
+    /* height:auto;  */
+  }
+
+  .game-name{
+    /* width: 15em; */
+    text-align:left;
+    /* background:blue; */
+    margin-left:6em;
+  }
+
+  .game-headline{
+    float:left;  
+    margin-top: -4em;
+    margin-left:8.1em;
+    display:inline-block;
+  }
+
+  .game-image{
+      float:left;
+      margin-top:-3.5em;
+      margin-left:1.5em;
+      width:120px;
+      height:160px;
+  }
+
+  .content-header{
+    float:left;  
+    margin-top: -2em;
+    margin-left:8.05em;
+    display:inline-block;
+  }
+
+  #load{
+    margin-left:5em;
+    /* width: 160px;
+    height:120px; */
+  }
+
+  #content{
+      float:left;
+      text-align:left;
+      margin-top: -2.65em;
+      margin-left:18.5em;
+      /* margin-top:-5em; */
+      width:20em;
+      /* padding-right:1.8em; */
+  }
+
+  .stars-container{
+    float:left;  
+    position:absolute;
+    /* border:1px solid black; */
+    border-radius:10px;
+    /* background:#EEE; */
+    background-image: linear-gradient(#EEE,#DDD);
+    width:7.5em;
+    height:5.5em;
+    margin-top:8em;
+    margin-left:1.5em;
+  }
+
+  .stars-container p{
+  margin-top:-0em;
+  margin-bottom:-0.5em;
+  padding-top:0.3em;
+  }
+
+  .stars-container .stars-text{
+    text-align:left;  
+    width:30%;
+    padding-top:0.2em;
+    padding-left:0.3em;
+    /* padding-right:0.1em; */
+    float:left;
+    font-size:4em;
+  }
+
+  .stars-container .stars-img{
+    float:right;
+    padding-top:0.8em;
+    width:55%;
+  }
+
+  .buttons-container{
+      float:left;
+      margin-left:11.5em;
+      margin-top:0em;
+      /* border:1px solid black; */
+  }
+
+  .buttons-container button{
+      width:11em;
+      font-size:1em;
+      margin-top:0.2em;
+      margin-right:0.4em;
+      border-radius:10px;
+      font-family: 'Manjari', 'sans-serif';
+      padding-top:4px;
+      height:1.5em;
+  }
+
+  .buttons-container button:hover{
+    background: #FF9;
+}

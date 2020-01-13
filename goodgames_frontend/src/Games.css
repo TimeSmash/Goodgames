@@ -1,0 +1,38 @@
+.gameList{
+    font-family: 'Manjari', sans-serif;
+}
+
+#games-adbar-container{
+    float:left;
+    margin-top:9.7em;
+}
+
+#loading-div{
+    /* border:1px solid black; */
+    margin-left:-20em;
+    width:35em;
+    display:inline-block;
+}
+
+#loading-gif-games{
+    /* margin-top:-995em; */
+    /* border:10px solid red; */
+}
+
+#search-form-container{
+    padding-left:100px;
+    padding-top:1px;
+    margin-bottom:1em;
+    margin-top: -1.5em;
+    /* border: 1px solid black; */
+    width:35em;
+    height:3.5em;
+    margin-left:49em;   
+}
+
+#games-heading{
+        margin-right:5em;
+        font-size:4em;
+        font-family: 'Manjari', sans-serif;
+        /* margin-bottom:1em */
+}

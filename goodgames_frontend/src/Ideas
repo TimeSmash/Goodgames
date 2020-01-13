@@ -1,0 +1,11 @@
+Link in Footer to IGDB; underlined, always black.
+Utilize Video game News API to make news links actually cool
+When in Speicifc Game make it so back actually ges back to Games component
+translate for SpecificGame
+condense form input text/text area function to be inhetited from App
+Add reviews successfully
+Be able to edit profile details
+Be able to edit reviews
+Be able to take game off played games (remove game from User list)
+Add ranks based on games played/reviewed
+Make genres have a purpose

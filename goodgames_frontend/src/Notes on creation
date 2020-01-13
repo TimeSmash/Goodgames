@@ -1,0 +1,18 @@
+For blog post:
+
+FOOTER
+
+It's great to have little details like a copyright footer to make this feel like a real website. I want the footer
+to display at the bottom of every page, but two of my components are colored, meaning the footer there is this jarring
+white bar with text at the bottom of the page--it doesn't sit within the background image and looks ugly. I couldn't figure out for the life of me
+how to make the footer stay in App every time while accounting for this, so I came up with a way that worked for me.
+
+I just made a new key in state called showDefaultFooter, represented as a boolean. Then, at the bottom of App,
+I had a conditional that goes like this "is showDefaultFooter true? If it is, then render Footer here. If it isn't
+don't return anything!" Then, in my Login and Signup components, I imported Footer and colored the text white, placing it
+at the bottom of each component. To prevent the Footer from App showing up, I had each component inherit the hideDefaultFooter
+and unhideDefaultFooter methods, the former of which sets App.state.showDefaultFooter to false, and the other which reverts it to true.
+
+In componentDidMount, I fire off hideDefaultFooter so App.state.showDefaultFooter is false, meaning only the Footer in Login/Signup
+shows. When we we render to somewhere else by filling out these forms, I use the componentWillUnmount method which sets
+App.state.showDefaultFooter back to true so when other components render, the Footer is where it should be.

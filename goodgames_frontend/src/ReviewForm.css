@@ -1,0 +1,49 @@
+#review-heading{
+    margin-right:11em;
+    font-size:2em;
+    font-family: 'Manjari', sans-serif;
+    /* margin-bottom:1em */
+}
+
+#select-container{
+    width:20em;
+    margin-left:5em;
+}
+
+#review-form{
+    position:absolute;
+    margin-left:15em;
+    /* border:1px solid black; */
+    width:30em;
+}
+
+#review-form textarea{
+    width: 38.5em;
+    height:15em;
+    font-size:0.7em;
+
+}
+
+#review-form input{
+    width: 30em;
+    height:2em;
+    text-align:center;
+    /* margin-bottom:-3em; */
+    font-size:0.9em;
+    font-family: 'Manjari', sans-serif;
+
+}
+
+.review-button{
+    font-family: 'Manjari', sans-serif;
+    font-size: 1.5em;
+    padding-top:0.2em;
+    max-width:8em;
+    margin-top:0.9em;
+    margin-bottom: 1.5em;
+    margin-left: 0.7em;
+    margin-right:-0.3em;
+    border: 2px solid black;
+    border-radius:10px;
+    background: none;
+}

@@ -1,0 +1,39 @@
+#recently-reviewed-container{
+  background-image: linear-gradient( lightblue, rgb(156, 156, 254));
+    float:right;
+    width:20em;
+    height:13em;
+    position:absolute;
+    border-radius:10px;
+  padding-left:5px;
+    /* margin-top:20em; */
+    margin-left:70em;
+}
+
+#recently-reviewed-container img{
+    /* display:inline-block; */
+    /* padding-left:6px; */
+    border:2px solid black;
+    width:90px;
+    height:120px;
+}
+
+
+
+/* Clear floats after image containers */
+.recent-image{
+    
+    /* border: 1px solid red; */
+    margin-top:0%;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  #recently-reviewed-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Clear floats after image containers */

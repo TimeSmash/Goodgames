@@ -1,0 +1,12 @@
+.about-container{
+    text-align:left;
+    /* border: 1px solid black; */
+    width:40em;
+    float:right;
+    margin-right:25em;
+}
+
+.about-container h1{
+    text-align:left;
+}
+

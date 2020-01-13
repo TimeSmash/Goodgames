@@ -1,0 +1,26 @@
+#adBar{
+    float:left;
+    border: 1px solid grey;
+    width:18em;
+    background:white;
+    /* margin-top:4.7em; */
+    padding-left:0.5em;
+    margin-left:3em;
+}
+
+#ad-banner{
+    background:lightgrey;
+    color:#555;
+    width:8.4em;
+    padding: 0px 3px;
+    padding-top: 2px;
+    text-align:center;  
+    margin-left:6.5em;
+    font-size:0.8em;
+    margin-top:0em;    
+}
+
+#adBar img{
+    height: 250px;
+    width:270px;
+}

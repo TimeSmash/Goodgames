@@ -1,0 +1,26 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: inline-flex;
+  }
+  
+  #cover-photo{
+      margin-left:38.2em;
+      height:17.5em;
+  }
+
+  #loading-gif{
+    height:20em;
+    width:30em;
+    margin-left:27em;
+  }
+
+  /* Create three equal columns that sits next to each other */
+  .column {
+    /* flex: 0.33%; */
+    margin-left: -3.7em;
+    margin-top:7em;
+  }
